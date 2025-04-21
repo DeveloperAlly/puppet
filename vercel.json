@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/index.js",
+      "src": "api/top100-yappers.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/api/top100-yappers",
-      "dest": "api/index.js"
+      "dest": "api/top100-yappers.js"
     }
   ]
 }
