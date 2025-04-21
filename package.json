@@ -1,5 +1,5 @@
 {
-  "name": "puppet",
+  "name": "kaito-yaps-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,4 +12,6 @@
   "dependencies": {
     "express": "^5.1.0",
     "puppeteer": "^24.6.1"
+  }
 }
+
